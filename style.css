@@ -9,7 +9,7 @@ body
     padding: 0;
 }
 
-#cabecera
+.cabecera
 {
     height: 20%;
     background: rgb(14, 62, 104);
@@ -20,20 +20,20 @@ body
     padding: 0.5em;
 }
 
-#cabecera #logo
+.cabecera .logo
 {
     width: 70px;
     vertical-align: middle;
 }
 
-#cabecera #tagline
+.cabecera .tagline
 {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
 }
 
-#container
+.container
 {
     width: 90%;
     padding: 0;
@@ -42,11 +42,11 @@ body
     margin: 0 auto;
 }
 
-#container h1
+.container h1
 {
     font-size: 20px;
 }
-#post
+.post
 {
     background: white;
-    padding: 1em;
+    padding: 1rem;
